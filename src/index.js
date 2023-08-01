@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faMagnifyingGlass, faTimes, faBars } from '@fortawesome/free-solid-svg-icons';
+
+library.add(faMagnifyingGlass, faTimes, faBars)
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
